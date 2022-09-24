@@ -31,22 +31,19 @@ const SMenu = styled(AntMenu)`
   }
 `;
 
-const SMenuItem = styled(AntMenu.Item)`
-  height: calc(${({ theme }) => theme.dimensions.header.height} / 2);
-`;
-
 const Menu: FC = () => {
   const [open, isOpen] = useState(false);
 
-  const createItem = ({ id, path, title }: Route) => (
-    <SMenuItem key={id} onClick={() => isOpen(false)}>
-      <Link href={path} passHref>
+  const createItem = ({ id, path, title }: Route) => ({
+    key: id,
+    label: (
+      <Link key={id} href={path} passHref onClick={() => isOpen(false)}>
         {title}
       </Link>
-    </SMenuItem>
-  );
+    ),
+  });
 
-  const menu = <SMenu>{Object.values(routes).map(createItem)}</SMenu>;
+  const menu = <SMenu items={Object.values(routes).map(createItem)} />;
 
   return (
     <Dropdown overlay={menu} placement="bottomRight" open={open}>
