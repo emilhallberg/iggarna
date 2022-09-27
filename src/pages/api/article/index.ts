@@ -26,7 +26,7 @@ export default async function handler(
 ) {
   if (server.validate(req.query, ["page"])) {
     if (req.method === "GET") {
-      const page = server.toNumber(req.query.page);
+      const page = server.toNumber(req.query.page as string);
       const articles = await server.query<Article>(select(page));
       server.respond(res, articles);
     }

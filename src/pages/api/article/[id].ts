@@ -24,7 +24,7 @@ export default async function handler(
   if (server.validate(req.query, ["id"])) {
     if (req.method === "GET") {
       const { id } = req.query;
-      const article = await server.query<Article>(select(id));
+      const article = await server.query<Article>(select(id as string));
       server.respond(res, article);
     }
   } else {

@@ -21,8 +21,10 @@ export default async function handler(
 ) {
   if (server.validate(req.query, ["id", "page"])) {
     if (req.method === "GET") {
-      const page = server.toNumber(req.query.page);
-      const images = await server.query<Image>(select(req.query.id, page));
+      const page = server.toNumber(req.query.page as string);
+      const images = await server.query<Image>(
+        select(req.query.id as string, page),
+      );
       server.respond(res, images);
     }
   } else {

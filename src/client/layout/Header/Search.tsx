@@ -1,4 +1,4 @@
-import { FC, useEffect, useRef } from "react";
+import { FC } from "react";
 import { AutoComplete, Avatar, Input, Typography } from "antd";
 import Link from "next/link";
 import styled from "styled-components";
@@ -79,29 +79,26 @@ export const renderLabel = (label: string, count: number) => (
 const Search: FC = () => {
   const [value, setValue] = useDebounce<string>("", DEBOUNCE);
   const { result, loading } = useSearch(value);
-  const { asPath, push } = useRouter();
-  const ref = useRef<Input>(null);
-
-  useEffect(() => {
-    if (asPath === "/sok") {
-      ref?.current?.focus();
-    }
-  }, [asPath]);
+  const { push } = useRouter();
 
   const options = result && [
     {
+      key: "articles",
       label: renderLabel("Referat", result.articles.length),
       options: result.articles.map(renderArticle),
     },
     {
+      key: "authors",
       label: renderLabel("Skribenter", result.authors.length),
       options: result.authors.map(renderAuthor),
     },
     {
+      key: "teams",
       label: renderLabel("Lag", result.teams.length),
       options: result.teams.map(renderTeam),
     },
     {
+      key: "images",
       label: renderLabel("Bilder", result.images.length),
       options: result.images.map(renderImage),
     },
@@ -111,11 +108,11 @@ const Search: FC = () => {
     <AutoComplete
       options={options}
       style={{ gridArea: "search" }}
+      // @ts-expect-error Weird type from Antd
       onSelect={(_, { key }) => push(key as string)}
       onChange={setValue}
     >
       <Input.Search
-        ref={ref}
         loading={loading}
         placeholder="Sök"
         size="large"

@@ -31,10 +31,14 @@ export default async function handler(
   if (server.validate(req.query, ["value"])) {
     if (req.method === "GET") {
       const { value } = req.query;
-      const articles = await server.query<Article>(searchArticles(value));
-      const authors = await server.query<Author>(searchAuthors(value));
-      const teams = await server.query<Team>(searchTeams(value));
-      const images = await server.query<Image>(searchImages(value));
+      const articles = await server.query<Article>(
+        searchArticles(value as string),
+      );
+      const authors = await server.query<Author>(
+        searchAuthors(value as string),
+      );
+      const teams = await server.query<Team>(searchTeams(value as string));
+      const images = await server.query<Image>(searchImages(value as string));
       server.respond(res, { articles, authors, teams, images });
     }
   } else {

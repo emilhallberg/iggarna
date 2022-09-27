@@ -47,7 +47,7 @@ const HistoryPage: NextPage = () => {
     goToPage,
   };
 
-  const handleKeyPress = useCallback(({ key }) => {
+  const handleKeyPress = useCallback(({ key }: KeyboardEvent) => {
     if (key === "ArrowLeft") {
       setPage(([i, d]) => (i === 0 ? [i, d] : [i - 1, -1]));
     }

@@ -18,7 +18,7 @@ export default async function handler(
   if (server.validate(req.query, ["id"])) {
     if (req.method === "GET") {
       const { id } = req.query;
-      const team = await server.query<Team>(select(id));
+      const team = await server.query<Team>(select(id as string));
       server.respond(res, team);
     }
   } else {

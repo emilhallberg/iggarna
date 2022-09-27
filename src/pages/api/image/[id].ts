@@ -18,7 +18,7 @@ export default async function handler(
   if (server.validate(req.query, ["id"])) {
     if (req.method === "GET") {
       const { id } = req.query;
-      const image = await server.query<Image>(select(id));
+      const image = await server.query<Image>(select(id as string));
       server.respond(res, image);
     }
   } else {

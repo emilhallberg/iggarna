@@ -17,12 +17,12 @@ export function hexa(hex: string, a: number): string {
     )}`;
 }
 
+export const uuid: () => string = () => v4();
+
 export const p = (s: string): ReactElement[] =>
   s
     .split("\n")
     .map((e) => <p key={uuid()} dangerouslySetInnerHTML={{ __html: e }} />);
-
-export const uuid: () => string = () => v4();
 
 export const cap = (s: string) =>
   `${s[0].toUpperCase()}${s.slice(1, s.length)}`;

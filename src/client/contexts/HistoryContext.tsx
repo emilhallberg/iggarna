@@ -1,5 +1,4 @@
 import { createContext } from "react";
-import styled from "styled-components";
 
 const HistoryContext = createContext({
   page: 0,
