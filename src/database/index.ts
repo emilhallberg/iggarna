@@ -32,7 +32,7 @@ const query = async <T>(str: string) =>
   connect()
     .then((client) =>
       client
-        .query<T>(str)
+        .query<Promise<T>>(str)
         .then(({ rows }) => {
           client.release();
           return rows;
