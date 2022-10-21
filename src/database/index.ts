@@ -8,7 +8,7 @@ const credentials = {
     process.env.NODE_ENV === "production"
       ? process.env.DB_HOST || ""
       : "localhost",
-  database: process.env.DB_DATABSE || "iggarna",
+  database: process.env.DB_DATABASE || "iggarna",
   password: process.env.DB_PASSWORD || "password",
   port: Number(process.env.DB_PORT) || 15432,
 };

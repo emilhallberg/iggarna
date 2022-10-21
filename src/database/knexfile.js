@@ -40,7 +40,7 @@ module.exports = {
       port: Number(process.env.DB_PORT) || port,
       user: process.env.DB_USER || user,
       password: process.env.DB_PASSWORD || password,
-      database: process.env.DB_DATABSE || database,
+      database: process.env.DB_DATABASE || database,
       ssl: !!Number(process.env.DB_SSL) || 0,
     },
     migrations,
