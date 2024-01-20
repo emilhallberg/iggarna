@@ -90,8 +90,8 @@ jobs:
           {
             "event_type": "Deploy iggarna",
             "client_payload": {
-              "brakskar": "ghcr.io/emilhallberg/iggarna/app:'$version'",
-              "brakskar": "ghcr.io/emilhallberg/iggarna/migrate:'$version'"
+              "iggarna": "ghcr.io/emilhallberg/iggarna/app:'$version'",
+              "iggarna-migrate": "ghcr.io/emilhallberg/iggarna/migrate:'$version'"
             }
           }
           '
