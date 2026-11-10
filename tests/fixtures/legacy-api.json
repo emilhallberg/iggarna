@@ -1,0 +1,2012 @@
+[
+  {
+    "method": "articles",
+    "args": [
+      1
+    ],
+    "path": "/api/article?page=1",
+    "unordered": false,
+    "sha256": "9b4a88ebdadf963e067fdf32e6b01c3eb6b575a666463d418712376d6bcfcfed"
+  },
+  {
+    "method": "articles",
+    "args": [
+      2
+    ],
+    "path": "/api/article?page=2",
+    "unordered": false,
+    "sha256": "a911a3d4eac2bc636210ae5c36c8386494a35ee19a377b6b547548a7e5258d2a"
+  },
+  {
+    "method": "articles",
+    "args": [
+      124
+    ],
+    "path": "/api/article?page=124",
+    "unordered": false,
+    "sha256": "0c1715ce4586432cfa88d4a3e00d5d5186aa83d2884f2b080bec046beecac9eb"
+  },
+  {
+    "method": "articles",
+    "args": [
+      9999
+    ],
+    "path": "/api/article?page=9999",
+    "unordered": false,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "images",
+    "args": [
+      1
+    ],
+    "path": "/api/image?page=1",
+    "unordered": false,
+    "sha256": "344d147414cf47a44a342b1e3258c049d42551ae8a6a7ea29f436cfd17794d9a"
+  },
+  {
+    "method": "images",
+    "args": [
+      2
+    ],
+    "path": "/api/image?page=2",
+    "unordered": false,
+    "sha256": "a255632c2fd1b3b2d90bb6b725c07e47ae62ef65e54575ca74bc4c6d0535e8f1"
+  },
+  {
+    "method": "images",
+    "args": [
+      138
+    ],
+    "path": "/api/image?page=138",
+    "unordered": false,
+    "sha256": "53f34ee3a82336d2ca940924f9e515eb63b43eed3c67ece0a5037b64038fca52"
+  },
+  {
+    "method": "images",
+    "args": [
+      9999
+    ],
+    "path": "/api/image?page=9999",
+    "unordered": false,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "players",
+    "args": [
+      1
+    ],
+    "path": "/api/player?page=1",
+    "unordered": false,
+    "sha256": "dda1d49588aab4718f0658dd802f007945685d76f3b063f394d0e9f14c21afce"
+  },
+  {
+    "method": "players",
+    "args": [
+      2
+    ],
+    "path": "/api/player?page=2",
+    "unordered": false,
+    "sha256": "85fbc5352572c7b11a6247ed4f1bccc7ff86f455ff61e6fd47e1f637f0cb009f"
+  },
+  {
+    "method": "players",
+    "args": [
+      21
+    ],
+    "path": "/api/player?page=21",
+    "unordered": false,
+    "sha256": "ccb740638ecce961755de9967d2f6ecdd1cd2cab6d5356871fb889b1dbb70cfe"
+  },
+  {
+    "method": "players",
+    "args": [
+      9999
+    ],
+    "path": "/api/player?page=9999",
+    "unordered": false,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "classes",
+    "args": [],
+    "path": "/api/class",
+    "unordered": false,
+    "sha256": "2ecc2196bc8e35c63069aa3a23c2efcdf7baf0a085d173c40ed171a32a67e405"
+  },
+  {
+    "method": "authors",
+    "args": [],
+    "path": "/api/author",
+    "unordered": true,
+    "sha256": "a11c6323839c8324ed43a314ee8e0780d363cc78dc7f7d909a0914c95eff1aa3"
+  },
+  {
+    "method": "topAuthors",
+    "args": [],
+    "path": "/api/author/top",
+    "unordered": true,
+    "sha256": "55de3862579c148fb52424f4ef4cd3cc54011dfd79358463f9c236d7a4544ecb"
+  },
+  {
+    "method": "teams",
+    "args": [],
+    "path": "/api/team",
+    "unordered": false,
+    "sha256": "9b11c78087cf87bb822e7f7b910b7db6aeeb8e886601a9232b878b9b025468fd"
+  },
+  {
+    "method": "author",
+    "args": [
+      "2d51a66b-65d6-4911-950b-0262c7a2e9ea"
+    ],
+    "path": "/api/author/2d51a66b-65d6-4911-950b-0262c7a2e9ea",
+    "unordered": false,
+    "sha256": "0d2a4df7f55abfa282ec4f21bf4c75dbca78ec4cc0b5304f3f337971072b5c14"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "2d51a66b-65d6-4911-950b-0262c7a2e9ea",
+      1
+    ],
+    "path": "/api/author/2d51a66b-65d6-4911-950b-0262c7a2e9ea/article?page=1",
+    "unordered": false,
+    "sha256": "4bcd2fae09e117f930cb75ebb66109ec25ff4d44ed4fb80f74a4c0763c7908e5"
+  },
+  {
+    "method": "author",
+    "args": [
+      "4cca75f1-b104-4017-a94c-f8f06881b73b"
+    ],
+    "path": "/api/author/4cca75f1-b104-4017-a94c-f8f06881b73b",
+    "unordered": false,
+    "sha256": "c4788e702caba852064a2414a751144c4b378dff89a698e23463f4e53dc504cc"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "4cca75f1-b104-4017-a94c-f8f06881b73b",
+      1
+    ],
+    "path": "/api/author/4cca75f1-b104-4017-a94c-f8f06881b73b/article?page=1",
+    "unordered": false,
+    "sha256": "ce6b566af3a3bfc37f67221bf5eb5237d341deab2cbf34bec5938504e3a3c683"
+  },
+  {
+    "method": "author",
+    "args": [
+      "6a48f091-fb72-4636-a31f-060e164aa510"
+    ],
+    "path": "/api/author/6a48f091-fb72-4636-a31f-060e164aa510",
+    "unordered": false,
+    "sha256": "5819197682fe05ad698f92d7d780c871db92e7a3a41336e0f5471fd78688c087"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "6a48f091-fb72-4636-a31f-060e164aa510",
+      1
+    ],
+    "path": "/api/author/6a48f091-fb72-4636-a31f-060e164aa510/article?page=1",
+    "unordered": false,
+    "sha256": "781d900fdf5e7c8e1838c8ddc5814395164b3f8520f05c3a65a0d2925e9295e0"
+  },
+  {
+    "method": "author",
+    "args": [
+      "e2523292-1a71-4e4f-aca1-5a84b60df40c"
+    ],
+    "path": "/api/author/e2523292-1a71-4e4f-aca1-5a84b60df40c",
+    "unordered": false,
+    "sha256": "9efa577ff04479f1ec4540f9742f599de198e34766e1112d3432aee307b9d10a"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "e2523292-1a71-4e4f-aca1-5a84b60df40c",
+      1
+    ],
+    "path": "/api/author/e2523292-1a71-4e4f-aca1-5a84b60df40c/article?page=1",
+    "unordered": false,
+    "sha256": "f4643ea30cf596646db801a3e276f267bd32bfe8a5ee618ce642e65fcf9c2367"
+  },
+  {
+    "method": "author",
+    "args": [
+      "afa3f390-4532-4953-abd5-b4e13c613b6b"
+    ],
+    "path": "/api/author/afa3f390-4532-4953-abd5-b4e13c613b6b",
+    "unordered": false,
+    "sha256": "010f860261aea17710f2876963a72426fd357ba781c0494c3b628ef27be98e4f"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "afa3f390-4532-4953-abd5-b4e13c613b6b",
+      1
+    ],
+    "path": "/api/author/afa3f390-4532-4953-abd5-b4e13c613b6b/article?page=1",
+    "unordered": false,
+    "sha256": "0ae4e6a026374035d8ccd1771003546b0551f2a5ba6aab434a1427eed1fc4108"
+  },
+  {
+    "method": "author",
+    "args": [
+      "736ac2e7-61ee-4750-be0f-5327f2cc5e7f"
+    ],
+    "path": "/api/author/736ac2e7-61ee-4750-be0f-5327f2cc5e7f",
+    "unordered": false,
+    "sha256": "7de1b04e9c3f6030034c059a83f3a6e40facaf5e4a6eff506862592b55279d74"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "736ac2e7-61ee-4750-be0f-5327f2cc5e7f",
+      1
+    ],
+    "path": "/api/author/736ac2e7-61ee-4750-be0f-5327f2cc5e7f/article?page=1",
+    "unordered": false,
+    "sha256": "741ee37492eda496e550e5636b8678665437da93f1c4ae34b19447f7d08cf0a6"
+  },
+  {
+    "method": "author",
+    "args": [
+      "9966d5bf-b1d5-4d31-930d-8af0f7ea7f0c"
+    ],
+    "path": "/api/author/9966d5bf-b1d5-4d31-930d-8af0f7ea7f0c",
+    "unordered": false,
+    "sha256": "f468a51006c66813664c10b770a7e074f32c39a02d05fa84c7e176b9227cbc58"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "9966d5bf-b1d5-4d31-930d-8af0f7ea7f0c",
+      1
+    ],
+    "path": "/api/author/9966d5bf-b1d5-4d31-930d-8af0f7ea7f0c/article?page=1",
+    "unordered": false,
+    "sha256": "7497fa489106d9546ecfc02718ed09864c8d1d9f3b7b5b164a5a4386aa4af6bf"
+  },
+  {
+    "method": "author",
+    "args": [
+      "de3c1713-3d11-4e5c-a2f5-b63ebfcdf468"
+    ],
+    "path": "/api/author/de3c1713-3d11-4e5c-a2f5-b63ebfcdf468",
+    "unordered": false,
+    "sha256": "f8db05663028cde9c5852cf688463080939b940f96d617cfefb196fadcdb9e77"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "de3c1713-3d11-4e5c-a2f5-b63ebfcdf468",
+      1
+    ],
+    "path": "/api/author/de3c1713-3d11-4e5c-a2f5-b63ebfcdf468/article?page=1",
+    "unordered": false,
+    "sha256": "01dc709f846b8fbdba97d329e65933d764fb735730c6f985aee3a82d76a86381"
+  },
+  {
+    "method": "author",
+    "args": [
+      "0d88899e-b420-4919-a6c2-97b63aec3ae8"
+    ],
+    "path": "/api/author/0d88899e-b420-4919-a6c2-97b63aec3ae8",
+    "unordered": false,
+    "sha256": "7ce3677f2d2ccbfbd3bec578315368bc7806abedc201e36d0bb01d5261d3324a"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "0d88899e-b420-4919-a6c2-97b63aec3ae8",
+      1
+    ],
+    "path": "/api/author/0d88899e-b420-4919-a6c2-97b63aec3ae8/article?page=1",
+    "unordered": false,
+    "sha256": "253cd0bae46ba03ad4bb8820fd2fa4c7ee7205870ca2988fae14425f9c2a88cd"
+  },
+  {
+    "method": "author",
+    "args": [
+      "a4d53808-fd8d-4dd6-a20f-bf90931c0e2a"
+    ],
+    "path": "/api/author/a4d53808-fd8d-4dd6-a20f-bf90931c0e2a",
+    "unordered": false,
+    "sha256": "505a40f49316cd547ef51a8262dc3b76ed1ead5240aee5169b7fd4fc505e9125"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "a4d53808-fd8d-4dd6-a20f-bf90931c0e2a",
+      1
+    ],
+    "path": "/api/author/a4d53808-fd8d-4dd6-a20f-bf90931c0e2a/article?page=1",
+    "unordered": false,
+    "sha256": "d44b7fbb19f07e34626b816f06e861e7777a6bec0a2db4d1a3f5b123a45a7d71"
+  },
+  {
+    "method": "author",
+    "args": [
+      "24cfb0c4-b113-4340-82cd-0880c0efbc23"
+    ],
+    "path": "/api/author/24cfb0c4-b113-4340-82cd-0880c0efbc23",
+    "unordered": false,
+    "sha256": "34e8bd37d4212d2a7ab3e730d14921169529386f34af8397936d785e293ae06e"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "24cfb0c4-b113-4340-82cd-0880c0efbc23",
+      1
+    ],
+    "path": "/api/author/24cfb0c4-b113-4340-82cd-0880c0efbc23/article?page=1",
+    "unordered": false,
+    "sha256": "be6fee4f82954f25487d6ff3a802b91e6b12c8d5e3a4a6145b82755186cfeb82"
+  },
+  {
+    "method": "author",
+    "args": [
+      "5fe32620-454f-4e4f-8d48-a0fe6fab2f26"
+    ],
+    "path": "/api/author/5fe32620-454f-4e4f-8d48-a0fe6fab2f26",
+    "unordered": false,
+    "sha256": "393905fd765e8a7565561f96cfec69c66eae3464a800e9419fb9c23762adc8a1"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "5fe32620-454f-4e4f-8d48-a0fe6fab2f26",
+      1
+    ],
+    "path": "/api/author/5fe32620-454f-4e4f-8d48-a0fe6fab2f26/article?page=1",
+    "unordered": false,
+    "sha256": "fe3ab27c3c5fb14310ff5856ae147ae1cd9f003e7aad0b195efed16cde3c69a9"
+  },
+  {
+    "method": "author",
+    "args": [
+      "cb291a02-0468-4dd2-87b2-495c47a207aa"
+    ],
+    "path": "/api/author/cb291a02-0468-4dd2-87b2-495c47a207aa",
+    "unordered": false,
+    "sha256": "21bc2df79dfd100178d3f06bc2b2612236183134510cfd9fd76f1e97e528b9ff"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "cb291a02-0468-4dd2-87b2-495c47a207aa",
+      1
+    ],
+    "path": "/api/author/cb291a02-0468-4dd2-87b2-495c47a207aa/article?page=1",
+    "unordered": false,
+    "sha256": "5058f11d64d90107dea198f1a7288ac9ec33357af19af23913f1f988b4db5cee"
+  },
+  {
+    "method": "author",
+    "args": [
+      "fdddbd31-babb-45ab-b8bc-8026b3bb9bc7"
+    ],
+    "path": "/api/author/fdddbd31-babb-45ab-b8bc-8026b3bb9bc7",
+    "unordered": false,
+    "sha256": "132a7f064173014a9999fd0d4c9eb87beb67156c3d7ba2fcec1960599c8293b0"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "fdddbd31-babb-45ab-b8bc-8026b3bb9bc7",
+      1
+    ],
+    "path": "/api/author/fdddbd31-babb-45ab-b8bc-8026b3bb9bc7/article?page=1",
+    "unordered": false,
+    "sha256": "f4c8314a18a4943904071d6929a93e31bf5e6cd6f7c146d3fdb130a0bcaee665"
+  },
+  {
+    "method": "author",
+    "args": [
+      "d20b1041-e442-4991-abbb-5bb6e264535a"
+    ],
+    "path": "/api/author/d20b1041-e442-4991-abbb-5bb6e264535a",
+    "unordered": false,
+    "sha256": "643fcb05a172498577ba4db57a44c2b53e0bf39dfa0531dc4d0ec882edf6ce88"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "d20b1041-e442-4991-abbb-5bb6e264535a",
+      1
+    ],
+    "path": "/api/author/d20b1041-e442-4991-abbb-5bb6e264535a/article?page=1",
+    "unordered": false,
+    "sha256": "82b79c54b554efbd1bbdf5c64bdc16274b1f6367983d321867f3379dd4a75ceb"
+  },
+  {
+    "method": "author",
+    "args": [
+      "3869a31e-64f4-4f3f-aa92-94d35df3fe95"
+    ],
+    "path": "/api/author/3869a31e-64f4-4f3f-aa92-94d35df3fe95",
+    "unordered": false,
+    "sha256": "7fb51c16be89f855d02af2acb84b595352cef058d1f06eac7d8ee160805c1307"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "3869a31e-64f4-4f3f-aa92-94d35df3fe95",
+      1
+    ],
+    "path": "/api/author/3869a31e-64f4-4f3f-aa92-94d35df3fe95/article?page=1",
+    "unordered": false,
+    "sha256": "ca80dc84248e8adfb1a305329314656825c9ce35ad40b2a7aeed7e9975dc6989"
+  },
+  {
+    "method": "author",
+    "args": [
+      "930d4464-56be-49d9-aba3-def81ed4a442"
+    ],
+    "path": "/api/author/930d4464-56be-49d9-aba3-def81ed4a442",
+    "unordered": false,
+    "sha256": "48281a35ea77c1feb7871a1235d99c207b693b96cf26a3d9df434f193aa03d9e"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "930d4464-56be-49d9-aba3-def81ed4a442",
+      1
+    ],
+    "path": "/api/author/930d4464-56be-49d9-aba3-def81ed4a442/article?page=1",
+    "unordered": false,
+    "sha256": "b9b58e5d1e2b559c40f0e7f77fda02b3c724997a874b2da90b5d3a53fe68ac21"
+  },
+  {
+    "method": "author",
+    "args": [
+      "589a9a32-b500-4cad-adda-e18323572601"
+    ],
+    "path": "/api/author/589a9a32-b500-4cad-adda-e18323572601",
+    "unordered": false,
+    "sha256": "75134de5a59fef5732a422f9e351fe34915423a893e56f86faf14bcb95c69fdb"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "589a9a32-b500-4cad-adda-e18323572601",
+      1
+    ],
+    "path": "/api/author/589a9a32-b500-4cad-adda-e18323572601/article?page=1",
+    "unordered": false,
+    "sha256": "50efd870e55b63da6320da8916d7c49089d28f519e712133d40af28cd02bd0ed"
+  },
+  {
+    "method": "author",
+    "args": [
+      "7ace5b52-b7b2-410c-8652-de032e36d158"
+    ],
+    "path": "/api/author/7ace5b52-b7b2-410c-8652-de032e36d158",
+    "unordered": false,
+    "sha256": "41dd69ee8360169eff331841db5c5829a5f01052372e741fca349d7de170014b"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "7ace5b52-b7b2-410c-8652-de032e36d158",
+      1
+    ],
+    "path": "/api/author/7ace5b52-b7b2-410c-8652-de032e36d158/article?page=1",
+    "unordered": false,
+    "sha256": "257f571fb3ff8ac55d985b94a5789fe1217589ed9da12ef145cc4267e513883d"
+  },
+  {
+    "method": "author",
+    "args": [
+      "80212933-8001-4e1f-9cbb-0c1e0c0b5734"
+    ],
+    "path": "/api/author/80212933-8001-4e1f-9cbb-0c1e0c0b5734",
+    "unordered": false,
+    "sha256": "71aa8f25d5f79b19efcd1053f79fb801ce3477ac9618aecbc81c0d7829dcf902"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "80212933-8001-4e1f-9cbb-0c1e0c0b5734",
+      1
+    ],
+    "path": "/api/author/80212933-8001-4e1f-9cbb-0c1e0c0b5734/article?page=1",
+    "unordered": false,
+    "sha256": "dda1e810d14477a9c84e92c63d759971e8c20529f7673285a90a32e2b68a76c4"
+  },
+  {
+    "method": "author",
+    "args": [
+      "c24285f5-d239-4741-b577-83c0248181a0"
+    ],
+    "path": "/api/author/c24285f5-d239-4741-b577-83c0248181a0",
+    "unordered": false,
+    "sha256": "401efe44635175a86c612f34c805ee9c1b6fc4cfc83b4748764ea2706ab406ca"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "c24285f5-d239-4741-b577-83c0248181a0",
+      1
+    ],
+    "path": "/api/author/c24285f5-d239-4741-b577-83c0248181a0/article?page=1",
+    "unordered": false,
+    "sha256": "a63ceeec6a1ff2342b8420d7b90fbcaf1cf9b9d2bb41504c067018665a562088"
+  },
+  {
+    "method": "author",
+    "args": [
+      "f82807a3-492a-478a-895d-61d91f4f99f2"
+    ],
+    "path": "/api/author/f82807a3-492a-478a-895d-61d91f4f99f2",
+    "unordered": false,
+    "sha256": "e8deb7aafbab523e467b807c2427688c578c964f2f2c5bea8042c97ced22faf0"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "f82807a3-492a-478a-895d-61d91f4f99f2",
+      1
+    ],
+    "path": "/api/author/f82807a3-492a-478a-895d-61d91f4f99f2/article?page=1",
+    "unordered": false,
+    "sha256": "3df9cbde01221a1a5a73ecd7c3a61d053ccaa0bd27262275eea23144283168ce"
+  },
+  {
+    "method": "author",
+    "args": [
+      "80ed2307-4ede-4ae6-b67e-b978adb63b2e"
+    ],
+    "path": "/api/author/80ed2307-4ede-4ae6-b67e-b978adb63b2e",
+    "unordered": false,
+    "sha256": "cac88113d5a784e58f710df707eca08eecf8d65cd42bd56da5c44be9807e62c2"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "80ed2307-4ede-4ae6-b67e-b978adb63b2e",
+      1
+    ],
+    "path": "/api/author/80ed2307-4ede-4ae6-b67e-b978adb63b2e/article?page=1",
+    "unordered": false,
+    "sha256": "2bfb6f1dda47a9853452faddfd3c03781350c2d7cf5e9b723741ebc5c4760973"
+  },
+  {
+    "method": "author",
+    "args": [
+      "3322a575-95e7-4ef1-9d6d-810eff090161"
+    ],
+    "path": "/api/author/3322a575-95e7-4ef1-9d6d-810eff090161",
+    "unordered": false,
+    "sha256": "6020e747f65c30cac2671c9848070c7efe70791b9ae6499248ddfed2e0c5b53d"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "3322a575-95e7-4ef1-9d6d-810eff090161",
+      1
+    ],
+    "path": "/api/author/3322a575-95e7-4ef1-9d6d-810eff090161/article?page=1",
+    "unordered": false,
+    "sha256": "286b6a19a72549637be4b0a5fdba4f7dde331a940d50bc224a8adf5a0aba0948"
+  },
+  {
+    "method": "author",
+    "args": [
+      "9594864c-5c9e-4d15-be53-b776593c016e"
+    ],
+    "path": "/api/author/9594864c-5c9e-4d15-be53-b776593c016e",
+    "unordered": false,
+    "sha256": "1da64c42f9820fa3bee9745f0cb2d4444d18c449ec0b95b5c92ad7f36cbc5b55"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "9594864c-5c9e-4d15-be53-b776593c016e",
+      1
+    ],
+    "path": "/api/author/9594864c-5c9e-4d15-be53-b776593c016e/article?page=1",
+    "unordered": false,
+    "sha256": "c54aff11da5ed78e92cdfce46407e655b59baeb05641960d115244c874d4c024"
+  },
+  {
+    "method": "author",
+    "args": [
+      "d1e2bde9-fc23-457b-880a-6cbb73ababcc"
+    ],
+    "path": "/api/author/d1e2bde9-fc23-457b-880a-6cbb73ababcc",
+    "unordered": false,
+    "sha256": "5d5181b15bd559a1c01fe972fe357972e84d003b25d646d7c844e6f1b3f0f336"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "d1e2bde9-fc23-457b-880a-6cbb73ababcc",
+      1
+    ],
+    "path": "/api/author/d1e2bde9-fc23-457b-880a-6cbb73ababcc/article?page=1",
+    "unordered": false,
+    "sha256": "20786afb3458adeb01de68cb3c314caf7abc7d91c8967773a977197f57e5b2e4"
+  },
+  {
+    "method": "author",
+    "args": [
+      "688168b4-dd85-45de-85e6-6d76dda5d875"
+    ],
+    "path": "/api/author/688168b4-dd85-45de-85e6-6d76dda5d875",
+    "unordered": false,
+    "sha256": "c255132cbbd4d3d25b2aac50c9d9d61164b3cea532d6024b189bdf09f43603c7"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "688168b4-dd85-45de-85e6-6d76dda5d875",
+      1
+    ],
+    "path": "/api/author/688168b4-dd85-45de-85e6-6d76dda5d875/article?page=1",
+    "unordered": false,
+    "sha256": "9ae17f05a756091210bd24eef515e670d88d79d1be1a65b9f12149921f4b165d"
+  },
+  {
+    "method": "author",
+    "args": [
+      "851b1a5f-89ce-4c6a-bba6-b08d57471d6f"
+    ],
+    "path": "/api/author/851b1a5f-89ce-4c6a-bba6-b08d57471d6f",
+    "unordered": false,
+    "sha256": "0b7e10f0827d32cb04840168865f6f0d4c526108a6f53b98d2292c95c3f003e0"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "851b1a5f-89ce-4c6a-bba6-b08d57471d6f",
+      1
+    ],
+    "path": "/api/author/851b1a5f-89ce-4c6a-bba6-b08d57471d6f/article?page=1",
+    "unordered": false,
+    "sha256": "65dafbe3675717b6e120d3a33f65e5316050cffae443b018c82fcefdf74b8909"
+  },
+  {
+    "method": "author",
+    "args": [
+      "f3296f8c-c592-4693-8676-3cd9f68919da"
+    ],
+    "path": "/api/author/f3296f8c-c592-4693-8676-3cd9f68919da",
+    "unordered": false,
+    "sha256": "3a8a7e9684468a1d275d1fa6d55ae73d6b12acaf939914bb416a17707ee4ae5c"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "f3296f8c-c592-4693-8676-3cd9f68919da",
+      1
+    ],
+    "path": "/api/author/f3296f8c-c592-4693-8676-3cd9f68919da/article?page=1",
+    "unordered": false,
+    "sha256": "60893db922384a5b1ebb145823c8f4db571d9d582bf70e0524aaae6ed277f6c5"
+  },
+  {
+    "method": "author",
+    "args": [
+      "0609f9f7-7e24-4e70-92c8-351e9ebfa22f"
+    ],
+    "path": "/api/author/0609f9f7-7e24-4e70-92c8-351e9ebfa22f",
+    "unordered": false,
+    "sha256": "2a2efc89cb5d71e831301b80ed348e4408682bf1467434a0f866f2474151e820"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "0609f9f7-7e24-4e70-92c8-351e9ebfa22f",
+      1
+    ],
+    "path": "/api/author/0609f9f7-7e24-4e70-92c8-351e9ebfa22f/article?page=1",
+    "unordered": false,
+    "sha256": "89c9f35be15d6346b186e7c52aa4e489780450869a80e8a1ac59e80a7fba73e4"
+  },
+  {
+    "method": "author",
+    "args": [
+      "c6128247-04a1-4110-abf1-bd0231d1097f"
+    ],
+    "path": "/api/author/c6128247-04a1-4110-abf1-bd0231d1097f",
+    "unordered": false,
+    "sha256": "a80b8c7df4026d5fa791aa7e2871be5bcb9f41586373e3b898f704c29b677235"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "c6128247-04a1-4110-abf1-bd0231d1097f",
+      1
+    ],
+    "path": "/api/author/c6128247-04a1-4110-abf1-bd0231d1097f/article?page=1",
+    "unordered": false,
+    "sha256": "b683978a37ffc4b58854aa2ce709b26b2b0bf4704380936e682921224902725c"
+  },
+  {
+    "method": "author",
+    "args": [
+      "f60ecc1d-2505-4082-8a06-16f2f198a892"
+    ],
+    "path": "/api/author/f60ecc1d-2505-4082-8a06-16f2f198a892",
+    "unordered": false,
+    "sha256": "64792be09e2a938a9e8df79a4b5256e96b1e9c85ee77da361fac99fde80fa527"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "f60ecc1d-2505-4082-8a06-16f2f198a892",
+      1
+    ],
+    "path": "/api/author/f60ecc1d-2505-4082-8a06-16f2f198a892/article?page=1",
+    "unordered": false,
+    "sha256": "08898a77be77a10e1aa024405195be84a63c52e3fefbb54bc7c649696b11fa9a"
+  },
+  {
+    "method": "author",
+    "args": [
+      "f147b0ea-b99e-43ab-938e-f76fe31aaf02"
+    ],
+    "path": "/api/author/f147b0ea-b99e-43ab-938e-f76fe31aaf02",
+    "unordered": false,
+    "sha256": "7f76b331076718e64a9a9601c7aa540b091fcda990849c12c826a83296cf4b4b"
+  },
+  {
+    "method": "authorArticles",
+    "args": [
+      "f147b0ea-b99e-43ab-938e-f76fe31aaf02",
+      1
+    ],
+    "path": "/api/author/f147b0ea-b99e-43ab-938e-f76fe31aaf02/article?page=1",
+    "unordered": false,
+    "sha256": "c91a78a6f23168820e99f8c37add9c57aa2a44548b5a49113f3741208c245b3d"
+  },
+  {
+    "method": "team",
+    "args": [
+      "bbb80378-a3fa-400f-8c78-5e36003353c1"
+    ],
+    "path": "/api/team/bbb80378-a3fa-400f-8c78-5e36003353c1",
+    "unordered": false,
+    "sha256": "37a4141affb74a543e5a4eab3331017874e800a5f5b9f24365a61935bd20b0c1"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "bbb80378-a3fa-400f-8c78-5e36003353c1",
+      1
+    ],
+    "path": "/api/team/bbb80378-a3fa-400f-8c78-5e36003353c1/article?page=1",
+    "unordered": false,
+    "sha256": "1f3fc31b436905031b0ebb6617bf0a9716cd60dfb6d0ab045e702ffe204934cf"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "bbb80378-a3fa-400f-8c78-5e36003353c1",
+      1
+    ],
+    "path": "/api/team/bbb80378-a3fa-400f-8c78-5e36003353c1/image?page=1",
+    "unordered": false,
+    "sha256": "a4672e83bf878c5a0d2a40a9de73f6c2d93972b9f574bc5ef3d823f5875a3c69"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "bbb80378-a3fa-400f-8c78-5e36003353c1"
+    ],
+    "path": "/api/team/bbb80378-a3fa-400f-8c78-5e36003353c1/player",
+    "unordered": true,
+    "sha256": "69ba5125ebd6476b37967809e61b60c347afd494dedcd8861958c8d3a06b7713"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "bbb80378-a3fa-400f-8c78-5e36003353c1"
+    ],
+    "path": "/api/team/bbb80378-a3fa-400f-8c78-5e36003353c1/author",
+    "unordered": true,
+    "sha256": "9bf81bcf772a573aca40b58cf833030d9493e4ab2b0fcfbbfbe9bedb154cf8c2"
+  },
+  {
+    "method": "team",
+    "args": [
+      "36a696ac-cabb-41a0-b199-532aeafd517c"
+    ],
+    "path": "/api/team/36a696ac-cabb-41a0-b199-532aeafd517c",
+    "unordered": false,
+    "sha256": "2f01bbb8da7737f06a6e7a2b7b7bc289de35b76808fafabfb82b0d2b3f274288"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "36a696ac-cabb-41a0-b199-532aeafd517c",
+      1
+    ],
+    "path": "/api/team/36a696ac-cabb-41a0-b199-532aeafd517c/article?page=1",
+    "unordered": false,
+    "sha256": "9757425ec301b9736908681ca74ae12ef00d50a9eaee3e5f7fcae9e42215ff46"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "36a696ac-cabb-41a0-b199-532aeafd517c",
+      1
+    ],
+    "path": "/api/team/36a696ac-cabb-41a0-b199-532aeafd517c/image?page=1",
+    "unordered": false,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "36a696ac-cabb-41a0-b199-532aeafd517c"
+    ],
+    "path": "/api/team/36a696ac-cabb-41a0-b199-532aeafd517c/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "36a696ac-cabb-41a0-b199-532aeafd517c"
+    ],
+    "path": "/api/team/36a696ac-cabb-41a0-b199-532aeafd517c/author",
+    "unordered": true,
+    "sha256": "4ece6785404bc2f75388b3fc3900e9a7a5ef4051e7fff4a90062e4e9d3b70dbe"
+  },
+  {
+    "method": "team",
+    "args": [
+      "85abc929-9ac2-44c0-bcaf-18cb91f9f1a4"
+    ],
+    "path": "/api/team/85abc929-9ac2-44c0-bcaf-18cb91f9f1a4",
+    "unordered": false,
+    "sha256": "f7c1f25674bcdafbf8d03adabbaf018cbb7b1d106cb4b78db711c6d6b7fd2967"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "85abc929-9ac2-44c0-bcaf-18cb91f9f1a4",
+      1
+    ],
+    "path": "/api/team/85abc929-9ac2-44c0-bcaf-18cb91f9f1a4/article?page=1",
+    "unordered": false,
+    "sha256": "7e4becf743a8c1d0cf6c6d888dfcc26e1c394ede9d4426acf7d5d14b160836f7"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "85abc929-9ac2-44c0-bcaf-18cb91f9f1a4",
+      1
+    ],
+    "path": "/api/team/85abc929-9ac2-44c0-bcaf-18cb91f9f1a4/image?page=1",
+    "unordered": false,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "85abc929-9ac2-44c0-bcaf-18cb91f9f1a4"
+    ],
+    "path": "/api/team/85abc929-9ac2-44c0-bcaf-18cb91f9f1a4/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "85abc929-9ac2-44c0-bcaf-18cb91f9f1a4"
+    ],
+    "path": "/api/team/85abc929-9ac2-44c0-bcaf-18cb91f9f1a4/author",
+    "unordered": true,
+    "sha256": "193969cc29c1441a244107a0c710bf54c6e69abe35d1e937d3593911b7a0417f"
+  },
+  {
+    "method": "team",
+    "args": [
+      "62bc7b58-ef0e-4f66-973c-112ff69621bf"
+    ],
+    "path": "/api/team/62bc7b58-ef0e-4f66-973c-112ff69621bf",
+    "unordered": false,
+    "sha256": "acffb55c05773ca40007ba739cfc2f9ae3611ee113fbd5920025f2146f45cff8"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "62bc7b58-ef0e-4f66-973c-112ff69621bf",
+      1
+    ],
+    "path": "/api/team/62bc7b58-ef0e-4f66-973c-112ff69621bf/article?page=1",
+    "unordered": false,
+    "sha256": "b97644c817fef14e425fdab282dc3241d875de86913aa81f298e632c0e7f5004"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "62bc7b58-ef0e-4f66-973c-112ff69621bf",
+      1
+    ],
+    "path": "/api/team/62bc7b58-ef0e-4f66-973c-112ff69621bf/image?page=1",
+    "unordered": false,
+    "sha256": "3f3f1ea08299010ceafe5fa3dbdf6e44caf8ba76b14d859c9663e34d43aa5230"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "62bc7b58-ef0e-4f66-973c-112ff69621bf"
+    ],
+    "path": "/api/team/62bc7b58-ef0e-4f66-973c-112ff69621bf/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "62bc7b58-ef0e-4f66-973c-112ff69621bf"
+    ],
+    "path": "/api/team/62bc7b58-ef0e-4f66-973c-112ff69621bf/author",
+    "unordered": true,
+    "sha256": "94acc1b291dade74032a7e72b313ee26178d48c68e4121bf80976e30da3907bb"
+  },
+  {
+    "method": "team",
+    "args": [
+      "2c4937cc-8fb0-4d34-b8fc-cdf9656c72bf"
+    ],
+    "path": "/api/team/2c4937cc-8fb0-4d34-b8fc-cdf9656c72bf",
+    "unordered": false,
+    "sha256": "44fe26d6a1f4b38713d7239aec9b5d6dd357c1990de3fda1a82aeaa7f93bae99"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "2c4937cc-8fb0-4d34-b8fc-cdf9656c72bf",
+      1
+    ],
+    "path": "/api/team/2c4937cc-8fb0-4d34-b8fc-cdf9656c72bf/article?page=1",
+    "unordered": false,
+    "sha256": "59638d4ec0fcd52d5de9818299572d452d45b4263e4acf0adfcaa7826f3b6e34"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "2c4937cc-8fb0-4d34-b8fc-cdf9656c72bf",
+      1
+    ],
+    "path": "/api/team/2c4937cc-8fb0-4d34-b8fc-cdf9656c72bf/image?page=1",
+    "unordered": false,
+    "sha256": "aae184eefe28b6231f11b4a3378a8a0b765f25b3c83be8b40531a5e669eab5f0"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "2c4937cc-8fb0-4d34-b8fc-cdf9656c72bf"
+    ],
+    "path": "/api/team/2c4937cc-8fb0-4d34-b8fc-cdf9656c72bf/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "2c4937cc-8fb0-4d34-b8fc-cdf9656c72bf"
+    ],
+    "path": "/api/team/2c4937cc-8fb0-4d34-b8fc-cdf9656c72bf/author",
+    "unordered": true,
+    "sha256": "1d234d1051e9cafe5c0a597e61e263ed020d190a501ea65ca0cb2750522103fa"
+  },
+  {
+    "method": "team",
+    "args": [
+      "41df1a2f-0351-43da-9d0d-f1e5095d72fc"
+    ],
+    "path": "/api/team/41df1a2f-0351-43da-9d0d-f1e5095d72fc",
+    "unordered": false,
+    "sha256": "af1a4aae0b698f4ff4cc283a68db668cff9fda66edf4ba656ea4435ea95423f6"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "41df1a2f-0351-43da-9d0d-f1e5095d72fc",
+      1
+    ],
+    "path": "/api/team/41df1a2f-0351-43da-9d0d-f1e5095d72fc/article?page=1",
+    "unordered": false,
+    "sha256": "6d14ba0b92b6dd3e0134d7e2c250fb84f2513fa8c166e925d10581724e4bfbd1"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "41df1a2f-0351-43da-9d0d-f1e5095d72fc",
+      1
+    ],
+    "path": "/api/team/41df1a2f-0351-43da-9d0d-f1e5095d72fc/image?page=1",
+    "unordered": false,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "41df1a2f-0351-43da-9d0d-f1e5095d72fc"
+    ],
+    "path": "/api/team/41df1a2f-0351-43da-9d0d-f1e5095d72fc/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "41df1a2f-0351-43da-9d0d-f1e5095d72fc"
+    ],
+    "path": "/api/team/41df1a2f-0351-43da-9d0d-f1e5095d72fc/author",
+    "unordered": true,
+    "sha256": "bdf15f0682c46baca4afed55a8e0f7ce1184303240cd6b155f2309ff94754624"
+  },
+  {
+    "method": "team",
+    "args": [
+      "cb2b9fcc-1e13-4c04-8e79-9c9598d80a5d"
+    ],
+    "path": "/api/team/cb2b9fcc-1e13-4c04-8e79-9c9598d80a5d",
+    "unordered": false,
+    "sha256": "5db6180eb329e944dbbcc46bd7aef5f9079245ffa8fcce2425cc1470308d4de3"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "cb2b9fcc-1e13-4c04-8e79-9c9598d80a5d",
+      1
+    ],
+    "path": "/api/team/cb2b9fcc-1e13-4c04-8e79-9c9598d80a5d/article?page=1",
+    "unordered": false,
+    "sha256": "5fc34c4361bd02a0dbd8f2fc0076e32d11b3e17cfda244ab1f4a1d5b9bfcb78c"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "cb2b9fcc-1e13-4c04-8e79-9c9598d80a5d",
+      1
+    ],
+    "path": "/api/team/cb2b9fcc-1e13-4c04-8e79-9c9598d80a5d/image?page=1",
+    "unordered": false,
+    "sha256": "b61af4f21dbd99c51aee40b9a50c8fcc157f912eb59a71876b7fd9a1521c9118"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "cb2b9fcc-1e13-4c04-8e79-9c9598d80a5d"
+    ],
+    "path": "/api/team/cb2b9fcc-1e13-4c04-8e79-9c9598d80a5d/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "cb2b9fcc-1e13-4c04-8e79-9c9598d80a5d"
+    ],
+    "path": "/api/team/cb2b9fcc-1e13-4c04-8e79-9c9598d80a5d/author",
+    "unordered": true,
+    "sha256": "f040d6993443ceb35753e097682ef4abf6aba2a10219f746c355957541c43af7"
+  },
+  {
+    "method": "team",
+    "args": [
+      "93b19ea5-8165-4ad9-8336-4cc4542b5e42"
+    ],
+    "path": "/api/team/93b19ea5-8165-4ad9-8336-4cc4542b5e42",
+    "unordered": false,
+    "sha256": "73280ca6d1b10a173b23bdf48155254065b6c2eb22c735c36c1929e4a67e0676"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "93b19ea5-8165-4ad9-8336-4cc4542b5e42",
+      1
+    ],
+    "path": "/api/team/93b19ea5-8165-4ad9-8336-4cc4542b5e42/article?page=1",
+    "unordered": false,
+    "sha256": "3f00446f44937c928e964aab30877bd650fc9a6b57a963eddf55dfc5388716aa"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "93b19ea5-8165-4ad9-8336-4cc4542b5e42",
+      1
+    ],
+    "path": "/api/team/93b19ea5-8165-4ad9-8336-4cc4542b5e42/image?page=1",
+    "unordered": false,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "93b19ea5-8165-4ad9-8336-4cc4542b5e42"
+    ],
+    "path": "/api/team/93b19ea5-8165-4ad9-8336-4cc4542b5e42/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "93b19ea5-8165-4ad9-8336-4cc4542b5e42"
+    ],
+    "path": "/api/team/93b19ea5-8165-4ad9-8336-4cc4542b5e42/author",
+    "unordered": true,
+    "sha256": "1019e19eb3538a07c53e6d50ec57ea36273ceb319df1d44d393f846acf518ad7"
+  },
+  {
+    "method": "team",
+    "args": [
+      "c65a8483-bf85-4249-96d7-678006ef48c7"
+    ],
+    "path": "/api/team/c65a8483-bf85-4249-96d7-678006ef48c7",
+    "unordered": false,
+    "sha256": "489f0cfa066804f59deaaa28769b511b55e6e23cc91a45a02f314f4040881ed8"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "c65a8483-bf85-4249-96d7-678006ef48c7",
+      1
+    ],
+    "path": "/api/team/c65a8483-bf85-4249-96d7-678006ef48c7/article?page=1",
+    "unordered": false,
+    "sha256": "08898a77be77a10e1aa024405195be84a63c52e3fefbb54bc7c649696b11fa9a"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "c65a8483-bf85-4249-96d7-678006ef48c7",
+      1
+    ],
+    "path": "/api/team/c65a8483-bf85-4249-96d7-678006ef48c7/image?page=1",
+    "unordered": false,
+    "sha256": "d9b64efd2092a3f892ad01385fa2dd98daf5c5e6b8a3225425a006fb57b55456"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "c65a8483-bf85-4249-96d7-678006ef48c7"
+    ],
+    "path": "/api/team/c65a8483-bf85-4249-96d7-678006ef48c7/player",
+    "unordered": true,
+    "sha256": "e0b5b5570f202e88e49f7fca29eb45771b32178fb467f229fdc90f7df7d80bd5"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "c65a8483-bf85-4249-96d7-678006ef48c7"
+    ],
+    "path": "/api/team/c65a8483-bf85-4249-96d7-678006ef48c7/author",
+    "unordered": true,
+    "sha256": "64792be09e2a938a9e8df79a4b5256e96b1e9c85ee77da361fac99fde80fa527"
+  },
+  {
+    "method": "team",
+    "args": [
+      "c37a1d3d-35f5-4b26-91a0-e39d572ca427"
+    ],
+    "path": "/api/team/c37a1d3d-35f5-4b26-91a0-e39d572ca427",
+    "unordered": false,
+    "sha256": "b1124f8b0d7234c552d81d603b760979424bf5e91022edfb29217bfe5aa4a294"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "c37a1d3d-35f5-4b26-91a0-e39d572ca427",
+      1
+    ],
+    "path": "/api/team/c37a1d3d-35f5-4b26-91a0-e39d572ca427/article?page=1",
+    "unordered": false,
+    "sha256": "9ae17f05a756091210bd24eef515e670d88d79d1be1a65b9f12149921f4b165d"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "c37a1d3d-35f5-4b26-91a0-e39d572ca427",
+      1
+    ],
+    "path": "/api/team/c37a1d3d-35f5-4b26-91a0-e39d572ca427/image?page=1",
+    "unordered": false,
+    "sha256": "e0075e93fa2be6c04fd2ce5a8faf89ba1a81c7eb5604efee82ee9e9820b989a2"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "c37a1d3d-35f5-4b26-91a0-e39d572ca427"
+    ],
+    "path": "/api/team/c37a1d3d-35f5-4b26-91a0-e39d572ca427/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "c37a1d3d-35f5-4b26-91a0-e39d572ca427"
+    ],
+    "path": "/api/team/c37a1d3d-35f5-4b26-91a0-e39d572ca427/author",
+    "unordered": true,
+    "sha256": "c255132cbbd4d3d25b2aac50c9d9d61164b3cea532d6024b189bdf09f43603c7"
+  },
+  {
+    "method": "team",
+    "args": [
+      "22356aed-4d9a-47f6-b762-575cb9c368da"
+    ],
+    "path": "/api/team/22356aed-4d9a-47f6-b762-575cb9c368da",
+    "unordered": false,
+    "sha256": "9343d6cab6d2724678a057227305c3b9ac66bf84da160097193589912f9a45d2"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "22356aed-4d9a-47f6-b762-575cb9c368da",
+      1
+    ],
+    "path": "/api/team/22356aed-4d9a-47f6-b762-575cb9c368da/article?page=1",
+    "unordered": false,
+    "sha256": "b9b58e5d1e2b559c40f0e7f77fda02b3c724997a874b2da90b5d3a53fe68ac21"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "22356aed-4d9a-47f6-b762-575cb9c368da",
+      1
+    ],
+    "path": "/api/team/22356aed-4d9a-47f6-b762-575cb9c368da/image?page=1",
+    "unordered": false,
+    "sha256": "16e29402e240da0ab7521ddf9bfd9c7c1eb7dc368e596ff4aca8fb5e7b3782dd"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "22356aed-4d9a-47f6-b762-575cb9c368da"
+    ],
+    "path": "/api/team/22356aed-4d9a-47f6-b762-575cb9c368da/player",
+    "unordered": true,
+    "sha256": "61d399eeaf91941edc44d1b69e1ef6ec95fe9c5e712ee19b805c9af74450790e"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "22356aed-4d9a-47f6-b762-575cb9c368da"
+    ],
+    "path": "/api/team/22356aed-4d9a-47f6-b762-575cb9c368da/author",
+    "unordered": true,
+    "sha256": "d0567f5f3dcca87865fd18fede55650e45169926d01cc0e0a79ca0ffd2cd570f"
+  },
+  {
+    "method": "team",
+    "args": [
+      "6d8ff4c5-c695-4827-a1b7-01e0ec248b52"
+    ],
+    "path": "/api/team/6d8ff4c5-c695-4827-a1b7-01e0ec248b52",
+    "unordered": false,
+    "sha256": "a5db06576dad758acdc1d12022753a0e003f5c82e3c05d490b54212d09d68d8c"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "6d8ff4c5-c695-4827-a1b7-01e0ec248b52",
+      1
+    ],
+    "path": "/api/team/6d8ff4c5-c695-4827-a1b7-01e0ec248b52/article?page=1",
+    "unordered": false,
+    "sha256": "9b06462b3b6daf625ce4dec5e2e803f299a5922dac488f73fb73705897cb83d8"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "6d8ff4c5-c695-4827-a1b7-01e0ec248b52",
+      1
+    ],
+    "path": "/api/team/6d8ff4c5-c695-4827-a1b7-01e0ec248b52/image?page=1",
+    "unordered": false,
+    "sha256": "344d79a041f9f44dbac70ad219d7993ff1806d296359b55c9d38afe8a05efa99"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "6d8ff4c5-c695-4827-a1b7-01e0ec248b52"
+    ],
+    "path": "/api/team/6d8ff4c5-c695-4827-a1b7-01e0ec248b52/player",
+    "unordered": true,
+    "sha256": "c1d3861a595a545f54ca7f3e2f0972829a64606e0caf0316a427ca94b102923b"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "6d8ff4c5-c695-4827-a1b7-01e0ec248b52"
+    ],
+    "path": "/api/team/6d8ff4c5-c695-4827-a1b7-01e0ec248b52/author",
+    "unordered": true,
+    "sha256": "f614a6cce99f25b83ad067b9b115e7deed20ff34bc21b53c469da11258582922"
+  },
+  {
+    "method": "team",
+    "args": [
+      "ee8ff6e4-498e-4fda-b85a-b63101e35f4f"
+    ],
+    "path": "/api/team/ee8ff6e4-498e-4fda-b85a-b63101e35f4f",
+    "unordered": false,
+    "sha256": "65d0fc8eb7cc6ae3bc8ec9c7c40097294d83285d797617f0bb5058ed2a07f8d2"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "ee8ff6e4-498e-4fda-b85a-b63101e35f4f",
+      1
+    ],
+    "path": "/api/team/ee8ff6e4-498e-4fda-b85a-b63101e35f4f/article?page=1",
+    "unordered": false,
+    "sha256": "92a92e8b6201889f5bacd00585b0b8e64d9a001ff382aa5e08efe29463cecadd"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "ee8ff6e4-498e-4fda-b85a-b63101e35f4f",
+      1
+    ],
+    "path": "/api/team/ee8ff6e4-498e-4fda-b85a-b63101e35f4f/image?page=1",
+    "unordered": false,
+    "sha256": "827aee60474e5886f91ceb3791175f54146fc09a9fc432bbbb5f214df1ea5807"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "ee8ff6e4-498e-4fda-b85a-b63101e35f4f"
+    ],
+    "path": "/api/team/ee8ff6e4-498e-4fda-b85a-b63101e35f4f/player",
+    "unordered": true,
+    "sha256": "b68be6adf3a683715c6e563ecb409dea3d68c31652ae3e938920b192b74ef5f4"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "ee8ff6e4-498e-4fda-b85a-b63101e35f4f"
+    ],
+    "path": "/api/team/ee8ff6e4-498e-4fda-b85a-b63101e35f4f/author",
+    "unordered": true,
+    "sha256": "fddb0933c3bc55bca5faa01670f55c119019ae8d238f6c8f2f9b0ff40b31f73b"
+  },
+  {
+    "method": "team",
+    "args": [
+      "97a0f582-7130-4ce4-b1c9-c10ea79fe134"
+    ],
+    "path": "/api/team/97a0f582-7130-4ce4-b1c9-c10ea79fe134",
+    "unordered": false,
+    "sha256": "4274f10889206aba808fd37e41e2292b8bce7aed4869309dd1156c07ee2281e9"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "97a0f582-7130-4ce4-b1c9-c10ea79fe134",
+      1
+    ],
+    "path": "/api/team/97a0f582-7130-4ce4-b1c9-c10ea79fe134/article?page=1",
+    "unordered": false,
+    "sha256": "7497fa489106d9546ecfc02718ed09864c8d1d9f3b7b5b164a5a4386aa4af6bf"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "97a0f582-7130-4ce4-b1c9-c10ea79fe134",
+      1
+    ],
+    "path": "/api/team/97a0f582-7130-4ce4-b1c9-c10ea79fe134/image?page=1",
+    "unordered": false,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "97a0f582-7130-4ce4-b1c9-c10ea79fe134"
+    ],
+    "path": "/api/team/97a0f582-7130-4ce4-b1c9-c10ea79fe134/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "97a0f582-7130-4ce4-b1c9-c10ea79fe134"
+    ],
+    "path": "/api/team/97a0f582-7130-4ce4-b1c9-c10ea79fe134/author",
+    "unordered": true,
+    "sha256": "f468a51006c66813664c10b770a7e074f32c39a02d05fa84c7e176b9227cbc58"
+  },
+  {
+    "method": "team",
+    "args": [
+      "5645c54d-4b43-4a3f-bc94-2e3c51f9ad26"
+    ],
+    "path": "/api/team/5645c54d-4b43-4a3f-bc94-2e3c51f9ad26",
+    "unordered": false,
+    "sha256": "ebe3391f6452f59a5b914b105b867b32d50eb271705be6b6f821cf176879efa6"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "5645c54d-4b43-4a3f-bc94-2e3c51f9ad26",
+      1
+    ],
+    "path": "/api/team/5645c54d-4b43-4a3f-bc94-2e3c51f9ad26/article?page=1",
+    "unordered": false,
+    "sha256": "b23bc4076293ffa876a7c5fd7641ba736864ebad3ea0148f7b1f67e3bde1a456"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "5645c54d-4b43-4a3f-bc94-2e3c51f9ad26",
+      1
+    ],
+    "path": "/api/team/5645c54d-4b43-4a3f-bc94-2e3c51f9ad26/image?page=1",
+    "unordered": false,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "5645c54d-4b43-4a3f-bc94-2e3c51f9ad26"
+    ],
+    "path": "/api/team/5645c54d-4b43-4a3f-bc94-2e3c51f9ad26/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "5645c54d-4b43-4a3f-bc94-2e3c51f9ad26"
+    ],
+    "path": "/api/team/5645c54d-4b43-4a3f-bc94-2e3c51f9ad26/author",
+    "unordered": true,
+    "sha256": "d029cb9edd66e29453759e87ccb98cb4005e4f9d3b0f965d8a3d886f40521479"
+  },
+  {
+    "method": "team",
+    "args": [
+      "41c6d517-6dbd-4b6e-bb14-225c5c9f9cae"
+    ],
+    "path": "/api/team/41c6d517-6dbd-4b6e-bb14-225c5c9f9cae",
+    "unordered": false,
+    "sha256": "6e1995287497f8d3dd4afe70857c8b80a139e7c54a83d0f0cce22f568a68e21f"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "41c6d517-6dbd-4b6e-bb14-225c5c9f9cae",
+      1
+    ],
+    "path": "/api/team/41c6d517-6dbd-4b6e-bb14-225c5c9f9cae/article?page=1",
+    "unordered": false,
+    "sha256": "cd9e3d277c53a0f61f182e106e0e2329c2dcf3b2a317b157a23f5c7243f62072"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "41c6d517-6dbd-4b6e-bb14-225c5c9f9cae",
+      1
+    ],
+    "path": "/api/team/41c6d517-6dbd-4b6e-bb14-225c5c9f9cae/image?page=1",
+    "unordered": false,
+    "sha256": "c89a7ad1dea3514894b82c20740914b969a088d2af272dc74b091d767586fa07"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "41c6d517-6dbd-4b6e-bb14-225c5c9f9cae"
+    ],
+    "path": "/api/team/41c6d517-6dbd-4b6e-bb14-225c5c9f9cae/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "41c6d517-6dbd-4b6e-bb14-225c5c9f9cae"
+    ],
+    "path": "/api/team/41c6d517-6dbd-4b6e-bb14-225c5c9f9cae/author",
+    "unordered": true,
+    "sha256": "a476340ad613c8dabb9c3a68202ce2c91c3f9269bcf62096b3fc0b5a8ad26409"
+  },
+  {
+    "method": "team",
+    "args": [
+      "414a983b-95dc-4bc4-b30e-29cc7f1b7926"
+    ],
+    "path": "/api/team/414a983b-95dc-4bc4-b30e-29cc7f1b7926",
+    "unordered": false,
+    "sha256": "997740bffebc135afb5720a3f2e061582957366bf86684cc91b9857df0716bd5"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "414a983b-95dc-4bc4-b30e-29cc7f1b7926",
+      1
+    ],
+    "path": "/api/team/414a983b-95dc-4bc4-b30e-29cc7f1b7926/article?page=1",
+    "unordered": false,
+    "sha256": "c5c65c99030244a30103d37c6c3cde7f049371f9365e6adc64badcf6a6c7b025"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "414a983b-95dc-4bc4-b30e-29cc7f1b7926",
+      1
+    ],
+    "path": "/api/team/414a983b-95dc-4bc4-b30e-29cc7f1b7926/image?page=1",
+    "unordered": false,
+    "sha256": "7b8b2d0f0c2c27dcc433c0a1bc63bd5982e6b2cb3f972ea43cb72924fb01dac3"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "414a983b-95dc-4bc4-b30e-29cc7f1b7926"
+    ],
+    "path": "/api/team/414a983b-95dc-4bc4-b30e-29cc7f1b7926/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "414a983b-95dc-4bc4-b30e-29cc7f1b7926"
+    ],
+    "path": "/api/team/414a983b-95dc-4bc4-b30e-29cc7f1b7926/author",
+    "unordered": true,
+    "sha256": "c6dc14313cbf497a841c52cfb0b7e1d9356d01f34b266727b06e98569d32e625"
+  },
+  {
+    "method": "team",
+    "args": [
+      "d1130185-418a-45be-ad0d-21b039b57f7f"
+    ],
+    "path": "/api/team/d1130185-418a-45be-ad0d-21b039b57f7f",
+    "unordered": false,
+    "sha256": "39f225d995716192d81b79322829a74053984bd834cf41fa8d3bd6d61c27b21c"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "d1130185-418a-45be-ad0d-21b039b57f7f",
+      1
+    ],
+    "path": "/api/team/d1130185-418a-45be-ad0d-21b039b57f7f/article?page=1",
+    "unordered": false,
+    "sha256": "2e3468bf436d53523f6c5a8d0eab58f83594cc8d6b68f9271c38ac29d6ff263b"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "d1130185-418a-45be-ad0d-21b039b57f7f",
+      1
+    ],
+    "path": "/api/team/d1130185-418a-45be-ad0d-21b039b57f7f/image?page=1",
+    "unordered": false,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "d1130185-418a-45be-ad0d-21b039b57f7f"
+    ],
+    "path": "/api/team/d1130185-418a-45be-ad0d-21b039b57f7f/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "d1130185-418a-45be-ad0d-21b039b57f7f"
+    ],
+    "path": "/api/team/d1130185-418a-45be-ad0d-21b039b57f7f/author",
+    "unordered": true,
+    "sha256": "8d2b9ef3db3d1f5749b1d50dbf1c38f2692b93972447762b40efd0606f8c7773"
+  },
+  {
+    "method": "team",
+    "args": [
+      "0740c02a-d817-44a3-891a-a389d77e817e"
+    ],
+    "path": "/api/team/0740c02a-d817-44a3-891a-a389d77e817e",
+    "unordered": false,
+    "sha256": "8d7e4f72c490d45672a66f2c038ec95f987652cc4a1d05caf976c2fda6eb416b"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "0740c02a-d817-44a3-891a-a389d77e817e",
+      1
+    ],
+    "path": "/api/team/0740c02a-d817-44a3-891a-a389d77e817e/article?page=1",
+    "unordered": false,
+    "sha256": "477ab2357f1abd59f234eac0135dbb4a09fed1a062cdaae9ff5165c5fb1501ef"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "0740c02a-d817-44a3-891a-a389d77e817e",
+      1
+    ],
+    "path": "/api/team/0740c02a-d817-44a3-891a-a389d77e817e/image?page=1",
+    "unordered": false,
+    "sha256": "dd55046fe6166521f1f4eb0cc5baf3aca8d4362281c7a3d86dbbbf5258a03357"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "0740c02a-d817-44a3-891a-a389d77e817e"
+    ],
+    "path": "/api/team/0740c02a-d817-44a3-891a-a389d77e817e/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "0740c02a-d817-44a3-891a-a389d77e817e"
+    ],
+    "path": "/api/team/0740c02a-d817-44a3-891a-a389d77e817e/author",
+    "unordered": true,
+    "sha256": "0edcd7872d8e2e7d11ee15f336d2464262b8f65ef82d4954b886e2c3c1d85358"
+  },
+  {
+    "method": "team",
+    "args": [
+      "480edfc9-65ac-48d8-bffa-6735a3757368"
+    ],
+    "path": "/api/team/480edfc9-65ac-48d8-bffa-6735a3757368",
+    "unordered": false,
+    "sha256": "94d6b99bd9873ec353d30efa49d657887eeb54b3e67ffea9463acc8cb1a7d1ec"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "480edfc9-65ac-48d8-bffa-6735a3757368",
+      1
+    ],
+    "path": "/api/team/480edfc9-65ac-48d8-bffa-6735a3757368/article?page=1",
+    "unordered": false,
+    "sha256": "ae01b216b07f589eb3b5c007abb7cc33664cf535db115852e2cb6f9c51996ce7"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "480edfc9-65ac-48d8-bffa-6735a3757368",
+      1
+    ],
+    "path": "/api/team/480edfc9-65ac-48d8-bffa-6735a3757368/image?page=1",
+    "unordered": false,
+    "sha256": "17c0f81eee43d37a6fa04a932ba2cf46923161faeba776fa37a5c9aa469f8f20"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "480edfc9-65ac-48d8-bffa-6735a3757368"
+    ],
+    "path": "/api/team/480edfc9-65ac-48d8-bffa-6735a3757368/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "480edfc9-65ac-48d8-bffa-6735a3757368"
+    ],
+    "path": "/api/team/480edfc9-65ac-48d8-bffa-6735a3757368/author",
+    "unordered": true,
+    "sha256": "485c7da55ce63338aef83f48b73c55d2b48b9216ab57fb4695d076db429472e7"
+  },
+  {
+    "method": "team",
+    "args": [
+      "51aab00a-46f6-4324-9e33-7bc95f22d667"
+    ],
+    "path": "/api/team/51aab00a-46f6-4324-9e33-7bc95f22d667",
+    "unordered": false,
+    "sha256": "221e504da0cc21f99d3d8fa58789bf777d03b87364d7646d06288d0700cb2b1d"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "51aab00a-46f6-4324-9e33-7bc95f22d667",
+      1
+    ],
+    "path": "/api/team/51aab00a-46f6-4324-9e33-7bc95f22d667/article?page=1",
+    "unordered": false,
+    "sha256": "f2b616b7651c554a6684ba52635a53dfef2922745c73d0eb04e0773a50e108fe"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "51aab00a-46f6-4324-9e33-7bc95f22d667",
+      1
+    ],
+    "path": "/api/team/51aab00a-46f6-4324-9e33-7bc95f22d667/image?page=1",
+    "unordered": false,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "51aab00a-46f6-4324-9e33-7bc95f22d667"
+    ],
+    "path": "/api/team/51aab00a-46f6-4324-9e33-7bc95f22d667/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "51aab00a-46f6-4324-9e33-7bc95f22d667"
+    ],
+    "path": "/api/team/51aab00a-46f6-4324-9e33-7bc95f22d667/author",
+    "unordered": true,
+    "sha256": "203e70f3be1638aae84d0af4917f6f67b876b95176cb6d23666e69ca72ad3392"
+  },
+  {
+    "method": "team",
+    "args": [
+      "7d45e6c5-e581-4547-91bc-b98653198087"
+    ],
+    "path": "/api/team/7d45e6c5-e581-4547-91bc-b98653198087",
+    "unordered": false,
+    "sha256": "db7e0f538886c80db28c215d9ac0ae71920820cc4dd64a490cd63312ba4afb8d"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "7d45e6c5-e581-4547-91bc-b98653198087",
+      1
+    ],
+    "path": "/api/team/7d45e6c5-e581-4547-91bc-b98653198087/article?page=1",
+    "unordered": false,
+    "sha256": "a6169a345bbca20e3d5de9104c620ae0cf7671ca18449fc457f4a05472f68a24"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "7d45e6c5-e581-4547-91bc-b98653198087",
+      1
+    ],
+    "path": "/api/team/7d45e6c5-e581-4547-91bc-b98653198087/image?page=1",
+    "unordered": false,
+    "sha256": "a1f9bc67c9be0a2e44e6d967c85507e36b32a6e98ae7446ac55b5d68981e5b94"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "7d45e6c5-e581-4547-91bc-b98653198087"
+    ],
+    "path": "/api/team/7d45e6c5-e581-4547-91bc-b98653198087/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "7d45e6c5-e581-4547-91bc-b98653198087"
+    ],
+    "path": "/api/team/7d45e6c5-e581-4547-91bc-b98653198087/author",
+    "unordered": true,
+    "sha256": "f6d16990946dce9fc43762edb1e462f014c9ab993ad89cbdb4f1c176e919397e"
+  },
+  {
+    "method": "team",
+    "args": [
+      "0dc6b04b-46b0-4df3-b63b-892da2999103"
+    ],
+    "path": "/api/team/0dc6b04b-46b0-4df3-b63b-892da2999103",
+    "unordered": false,
+    "sha256": "33591344b1aa89dfe9083b2261106c80c6f03b41cca80a42932a734f89c5f2f3"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "0dc6b04b-46b0-4df3-b63b-892da2999103",
+      1
+    ],
+    "path": "/api/team/0dc6b04b-46b0-4df3-b63b-892da2999103/article?page=1",
+    "unordered": false,
+    "sha256": "7539098a47a5b9e32a502765c789450905a20a5b1afdb3b4b8e59090b512c7f1"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "0dc6b04b-46b0-4df3-b63b-892da2999103",
+      1
+    ],
+    "path": "/api/team/0dc6b04b-46b0-4df3-b63b-892da2999103/image?page=1",
+    "unordered": false,
+    "sha256": "9c1d2cf471ddf968ddad5076d046da76f5cc1320f47d7f3fa6f03d1a4e801bf4"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "0dc6b04b-46b0-4df3-b63b-892da2999103"
+    ],
+    "path": "/api/team/0dc6b04b-46b0-4df3-b63b-892da2999103/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "0dc6b04b-46b0-4df3-b63b-892da2999103"
+    ],
+    "path": "/api/team/0dc6b04b-46b0-4df3-b63b-892da2999103/author",
+    "unordered": true,
+    "sha256": "11a322ee8fa6a2d7758e5a544d04dc0e8e4b72e3b66baf782222f45a26012efd"
+  },
+  {
+    "method": "team",
+    "args": [
+      "b50718ab-e5be-4ddd-bbe0-01f5c629c598"
+    ],
+    "path": "/api/team/b50718ab-e5be-4ddd-bbe0-01f5c629c598",
+    "unordered": false,
+    "sha256": "b9dc3a95a4902674718ab2f876484851efbf8845a158643671fc89520243bf17"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "b50718ab-e5be-4ddd-bbe0-01f5c629c598",
+      1
+    ],
+    "path": "/api/team/b50718ab-e5be-4ddd-bbe0-01f5c629c598/article?page=1",
+    "unordered": false,
+    "sha256": "4e95c2f62d6a85e889b872eaa330caf2a3a70af7b9e9f113698c8a4d11102c68"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "b50718ab-e5be-4ddd-bbe0-01f5c629c598",
+      1
+    ],
+    "path": "/api/team/b50718ab-e5be-4ddd-bbe0-01f5c629c598/image?page=1",
+    "unordered": false,
+    "sha256": "e293e587992f646a26229a1f54ae8af4b97a7e7acb6033b9040ae0f36bf9366a"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "b50718ab-e5be-4ddd-bbe0-01f5c629c598"
+    ],
+    "path": "/api/team/b50718ab-e5be-4ddd-bbe0-01f5c629c598/player",
+    "unordered": true,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "b50718ab-e5be-4ddd-bbe0-01f5c629c598"
+    ],
+    "path": "/api/team/b50718ab-e5be-4ddd-bbe0-01f5c629c598/author",
+    "unordered": true,
+    "sha256": "d0b5c6b49d1c220a98aaf186343284519b2af28e48a1e5414784d0fde71205df"
+  },
+  {
+    "method": "team",
+    "args": [
+      "ed546d3a-73bb-486d-b62f-f6753231532f"
+    ],
+    "path": "/api/team/ed546d3a-73bb-486d-b62f-f6753231532f",
+    "unordered": false,
+    "sha256": "bcf70b7418f870a10d5056ca0a00973493cd3d11d1aefcef36b0cdc3f63c5425"
+  },
+  {
+    "method": "teamArticles",
+    "args": [
+      "ed546d3a-73bb-486d-b62f-f6753231532f",
+      1
+    ],
+    "path": "/api/team/ed546d3a-73bb-486d-b62f-f6753231532f/article?page=1",
+    "unordered": false,
+    "sha256": "be6fee4f82954f25487d6ff3a802b91e6b12c8d5e3a4a6145b82755186cfeb82"
+  },
+  {
+    "method": "teamImages",
+    "args": [
+      "ed546d3a-73bb-486d-b62f-f6753231532f",
+      1
+    ],
+    "path": "/api/team/ed546d3a-73bb-486d-b62f-f6753231532f/image?page=1",
+    "unordered": false,
+    "sha256": "308b87008c15e5336cda13384416ea4231de5fae343b13f8ba65e656fb407702"
+  },
+  {
+    "method": "teamPlayers",
+    "args": [
+      "ed546d3a-73bb-486d-b62f-f6753231532f"
+    ],
+    "path": "/api/team/ed546d3a-73bb-486d-b62f-f6753231532f/player",
+    "unordered": true,
+    "sha256": "e4093f8aab1a6fb8ad83e385e892f14db616905efcf4fe6ccb38577215eed699"
+  },
+  {
+    "method": "teamAuthors",
+    "args": [
+      "ed546d3a-73bb-486d-b62f-f6753231532f"
+    ],
+    "path": "/api/team/ed546d3a-73bb-486d-b62f-f6753231532f/author",
+    "unordered": true,
+    "sha256": "34e8bd37d4212d2a7ab3e730d14921169529386f34af8397936d785e293ae06e"
+  },
+  {
+    "method": "article",
+    "args": [
+      "5138b876-e6f6-43c2-b44e-83984ca3bf8a"
+    ],
+    "path": "/api/article/5138b876-e6f6-43c2-b44e-83984ca3bf8a",
+    "unordered": false,
+    "sha256": "15b2a6551db5c3c240efd5181109da30563d54d9dfbee7e1aa128dcc4f6ebd0b"
+  },
+  {
+    "method": "article",
+    "args": [
+      "62a8154e-3d02-4c3f-aba5-6fffde1ba390"
+    ],
+    "path": "/api/article/62a8154e-3d02-4c3f-aba5-6fffde1ba390",
+    "unordered": false,
+    "sha256": "57b52eeec541e47e59cbd4301fadd08b1cd72ed354bb9176cd185d4cf53084a9"
+  },
+  {
+    "method": "image",
+    "args": [
+      "c5f5daa8-03b4-4a08-9ebe-cd00a6604686"
+    ],
+    "path": "/api/image/c5f5daa8-03b4-4a08-9ebe-cd00a6604686",
+    "unordered": false,
+    "sha256": "6595c0890feeca7ea39bfafb0d1e18cc9abb481e487d2914569402eece4c02d9"
+  },
+  {
+    "method": "image",
+    "args": [
+      "d0a76a93-ec4b-4b28-88fa-b3b14ce7d1d9"
+    ],
+    "path": "/api/image/d0a76a93-ec4b-4b28-88fa-b3b14ce7d1d9",
+    "unordered": false,
+    "sha256": "4c9a87120fbf825359ff42d1e7d1366136c1180a145bd86000a7219e1442dc43"
+  },
+  {
+    "method": "search",
+    "args": [
+      "Iggesund"
+    ],
+    "path": "/api/search?value=Iggesund",
+    "unordered": true,
+    "sha256": "e7381db6e94a4aec44f6019a2e5f1a412ce5f7d82b95b9101a01aef33c166bb3"
+  },
+  {
+    "method": "search",
+    "args": [
+      "2011"
+    ],
+    "path": "/api/search?value=2011",
+    "unordered": true,
+    "sha256": "4ee47282936dc03c8822b27f8f97611115030a5837f73f5c3b227370f052e78b"
+  },
+  {
+    "method": "search",
+    "args": [
+      "Sundman"
+    ],
+    "path": "/api/search?value=Sundman",
+    "unordered": true,
+    "sha256": "6b55c816d62dacadbb4c1bc68f0b8ba7f7fcba2f6768b1e69bf3d30ff6e4c6a2"
+  },
+  {
+    "method": "search",
+    "args": [
+      "\u00c5"
+    ],
+    "path": "/api/search?value=%C3%85",
+    "unordered": true,
+    "sha256": "f9858f581072202cbbd01aab70ddfa4b4919cef2453b1801aaba279770160ca3"
+  }
+]

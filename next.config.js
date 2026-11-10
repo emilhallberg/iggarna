@@ -2,7 +2,10 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ["arkiv.iggesundsik.se"],
+    remotePatterns: [
+      { protocol: "http", hostname: "arkiv.iggesundsik.se" },
+      { protocol: "https", hostname: "arkiv.iggesundsik.se" },
+    ],
   },
   compiler: {
     styledComponents: true,

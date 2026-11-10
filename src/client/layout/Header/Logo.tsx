@@ -12,7 +12,7 @@ const SLogo = styled.a`
 `;
 
 const Logo: FC = () => (
-  <Link href="/" passHref>
+  <Link href="/" passHref legacyBehavior>
     <SLogo>
       <IIK />
     </SLogo>
